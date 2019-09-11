@@ -59,3 +59,13 @@ typings/
 
 # next.js build output
 .next
+
+# Ignore sensitive data
+cdk.context.json 
+
+bin/*.js
+bin/*.d.ts
+cdk.out
+
+lib/*.js
+lib/*.d.ts
